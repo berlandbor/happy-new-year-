@@ -1,0 +1,86 @@
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background: linear-gradient(to right, #e44d26, #f39c12, #3498db);
+  
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: colorChange 1s infinite alternate; /* Добавленная анимация */
+}
+
+@keyframes colorChange {
+  0% {
+    background: linear-gradient(to right, #e44d26, #f39c12, #3498db);
+  }
+  50% {
+    background: linear-gradient(to right, #3498db, #e44d26, #f39c12);
+  }
+  100% {
+    background: linear-gradient(to right, #f39c12, #3498db, #e44d26);
+  }
+}
+
+
+.greeting-container {
+  padding: 50px;
+  background-color: #04214bba;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 100px auto;
+  max-width: 400px;
+}
+
+h1 {
+  
+  padding: 10px 15px;
+  font-size: 30px;
+  cursor: pointer;
+  width: 300px;
+  border-radius: 50px; 
+  background: linear-gradient(90deg, black, #fc1f1f, #061062, #fc1f1f, black);background-size: 200% 200%;
+  animation: colorShift 5s infinite;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+  
+
+}
+@keyframes colorShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+
+p{
+  
+  font-size: 30px;
+ 
+  padding: 10px 15px;
+  font-size: 30px;
+  cursor: pointer;
+  width: 300px;
+  border-radius: 50px; 
+  background: linear-gradient(90deg, black, #fef69c, #061062, #fef69c, black);background-size: 200% 200%;
+  animation: colorShift 5s infinite;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+  
+
+}
+@keyframes colorShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+  
