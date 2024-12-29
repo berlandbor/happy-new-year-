@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
   // Установим дату Нового Года
-  const newYearDate = new Date('January 1, 2025 00:00:00').getTime();
+  const newYearDate = new Date('December 1, 2025 00:00:00').getTime();
 
   // Обновим счетчик каждую секунду
   const countdownElement = document.getElementById('countdown');
